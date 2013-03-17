@@ -16,7 +16,7 @@ public class Ayah {
     this.pubKey = pubKey;
     this.scoreKey = scoreKey;
     this.wsHost = 'ws.areyouahuman.com';
-	}
+  }
 
   public Ayah(String pubKey, String scoreKey, String wsHost) {
     this.pubKey = pubKey;
