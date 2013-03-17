@@ -1,0 +1,40 @@
+<apex:page showHeader="true" sidebar="true" controller="ExampleController">
+  <apex:sectionHeader title="Ayah" />
+  <apex:pageMessages />
+  <apex:form >
+   
+    <apex:pageBlock >
+
+      <apex:pageBlockButtons>
+        <apex:commandButton value="Submit" action="{!check}" />
+      </apex:pageBlockButtons>
+      
+      <apex:pageBlockSection columns="1">
+        
+        <apex:pageBlockSectionItem >
+          <apex:outputLabel value="First Name" for="first_name" />
+          <apex:inputText value="{!firstName}" id="first_name" />
+        </apex:pageBlockSectionItem>
+        
+        <apex:pageBlockSectionItem >
+          <apex:outputLabel value="Last Name" for="last_name" />
+          <apex:inputText value="{!lastName}" id="last_name" />
+        </apex:pageBlockSectionItem>
+
+        <apex:pageBlockSectionItem >
+          <apex:outputLabel value="Email" for="email" />
+          <apex:inputText value="{!email}" id="email" />
+        </apex:pageBlockSectionItem>
+        
+        <apex:pageBlockSectionItem >
+          <apex:outputLabel value="Are you a human?" for="ayah-html" />
+          <apex:outputText escape="false" value="{!publisherHtml}" />
+        </apex:pageBlockSectionItem>
+      
+      </apex:pageBlockSection>
+
+    </apex:pageBlock>
+  
+  </apex:form>
+
+</apex:page>
