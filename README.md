@@ -1,6 +1,6 @@
 # ayah-sfdc
 
-Add "are you a human?" to visualforce pages
+Add [are you a human](http://areyouahuman.com/) to visualforce pages
 
 ## Setup
 
