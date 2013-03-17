@@ -2,6 +2,8 @@
 
 Add [are you a human](http://areyouahuman.com/) to visualforce pages. You can check out a [live demo here](http://ayah-developer-edition.na15.force.com/).
 
+![Ayah SFDC](http://dl.dropbox.com/u/21549383/ayah-sfdc.png "Are you a Human for Salesforce")
+
 ## Setup
 
 1. Install `Ayah.cls` into your Salesforce Org
